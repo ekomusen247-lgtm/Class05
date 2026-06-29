@@ -1,4 +1,4 @@
-
+import time
 
 def run_quiz():
     # 1. Interactive Age Checker
@@ -62,7 +62,7 @@ def run_quiz():
         print(f"Question {i + 1}: {q['question']}")
         for option in q['options']:
             print(option)
-        
+    
         # Input validation loop
         while True:
             guess = input("Your answer (A, B, C, or D): ").strip().upper()
